@@ -26,7 +26,7 @@ public class App {
 
         server.createContext("/", exchange ->
                 respond(exchange, 200,
-                        "{\"message\":\"Edem's app, deployed automatically by Jenkins\",\"status\":\"ok\"}"));
+                        "{\"message\":\"Happy Father's Day Dr. Ayivor\",\"status\":\"ok\"}"));
 
         server.createContext("/health", exchange ->
                 respond(exchange, 200, "{\"status\":\"healthy\"}"));
